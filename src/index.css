@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-margin {
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.custom-toggle .react-toggle-track {
+  border-radius: 9999px;
+}
+.custom-toggle.react-toggle--checked .react-toggle-track {
+  background-color: #ab199f;
+}
+
+.custom-toggle .react-toggle-thumb {
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  transition: left 0.2s ease, transform 0.2s ease;
+}
+
+.custom-toggle.react-toggle--checked .react-toggle-thumb {
+  left: calc(100% - 22px);
+  transform: translateX(-2px);
+}
+
+.custom-toggle .react-toggle-track-check,
+.custom-toggle .react-toggle-track-x {
+  display: none;
 }
