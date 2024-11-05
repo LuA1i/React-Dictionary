@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-Dictionary/static/css/main.637cbd51.css",
+    "main.js": "/React-Dictionary/static/js/main.8b1ad1ee.js",
+    "index.html": "/React-Dictionary/index.html",
+    "static/media/logo.svg": "/React-Dictionary/static/media/logo.afbe15e827b060eab1c775e3afad2b73.svg",
+    "static/media/icon-moon.svg": "/React-Dictionary/static/media/icon-moon.fd52e618de9fdb62d0edd814557c07e3.svg",
+    "static/media/icon-arrow-down.svg": "/React-Dictionary/static/media/icon-arrow-down.aa902848ffe2b4ed5369af17076de50d.svg",
+    "main.637cbd51.css.map": "/React-Dictionary/static/css/main.637cbd51.css.map",
+    "main.8b1ad1ee.js.map": "/React-Dictionary/static/js/main.8b1ad1ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.637cbd51.css",
+    "static/js/main.8b1ad1ee.js"
+  ]
+}
