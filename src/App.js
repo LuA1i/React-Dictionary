@@ -1,11 +1,13 @@
 import Navigation from './components/Navigation/Navigation'
+import Search from './components/Search/Search'
 import './index.css'
 
 function App() {
   return (
-    <div className="App">
-      <div className="flex justify-center  min-h-screen custom-margin">
+    <div className="w-full h-screen text-center dark:bg-black duration-500">
+      <div className="container max-w-screen-md mx-auto h-screen ">
         <Navigation />
+        <Search />
       </div>
     </div>
   )
