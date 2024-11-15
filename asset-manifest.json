@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Dictionary/static/css/main.fb930a2a.css",
-    "main.js": "/React-Dictionary/static/js/main.0b72cb60.js",
+    "main.css": "/React-Dictionary/static/css/main.bf6eb030.css",
+    "main.js": "/React-Dictionary/static/js/main.9a17cb94.js",
     "index.html": "/React-Dictionary/index.html",
     "static/media/logo.svg": "/React-Dictionary/static/media/logo.afbe15e827b060eab1c775e3afad2b73.svg",
     "static/media/icon-moon.svg": "/React-Dictionary/static/media/icon-moon.fd52e618de9fdb62d0edd814557c07e3.svg",
     "static/media/icon-search.svg": "/React-Dictionary/static/media/icon-search.13357ba7763bb4388cba203d0388c375.svg",
     "static/media/icon-play.svg": "/React-Dictionary/static/media/icon-play.a659db0104303a8b8ae071e0cf90119d.svg",
     "static/media/icon-arrow-down.svg": "/React-Dictionary/static/media/icon-arrow-down.aa902848ffe2b4ed5369af17076de50d.svg",
-    "main.fb930a2a.css.map": "/React-Dictionary/static/css/main.fb930a2a.css.map",
-    "main.0b72cb60.js.map": "/React-Dictionary/static/js/main.0b72cb60.js.map"
+    "main.bf6eb030.css.map": "/React-Dictionary/static/css/main.bf6eb030.css.map",
+    "main.9a17cb94.js.map": "/React-Dictionary/static/js/main.9a17cb94.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb930a2a.css",
-    "static/js/main.0b72cb60.js"
+    "static/css/main.bf6eb030.css",
+    "static/js/main.9a17cb94.js"
   ]
 }
