@@ -3,6 +3,7 @@ import Search from './components/Search/Search'
 import axios from 'axios'
 import './index.css'
 import { useState } from 'react'
+import InfoDisplay from './components/InfoDisplay/InfoDisplay'
 
 function App() {
   const [input, setInput] = useState('')
@@ -44,6 +45,7 @@ function App() {
           setLoading={loading}
           setError={error}
         />
+        <InfoDisplay data={data} setLoading={loading} setError={error} />
       </div>
     </div>
   )

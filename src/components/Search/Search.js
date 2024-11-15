@@ -1,6 +1,5 @@
 import React from 'react'
 import searchIcon from '../../assets/images/icon-search.svg'
-import playSound from '../../assets/images/icon-play.svg'
 
 const Search = ({ input, data, setInput, handleSearch, loading, error }) => {
   const onFormSubmit = (e) => {
@@ -19,29 +18,12 @@ const Search = ({ input, data, setInput, handleSearch, loading, error }) => {
           placeholder="Search"
         />
         <img
-          onClick={handleSearch} 
+          onClick={handleSearch}
           className="absolute right-3 top-20 transform -translate-y-1/2 h-5 w-5 cursor-pointer"
           src={searchIcon}
           alt="Search"
         />
       </form>
-
-      <div className="dark:text-white flex flex-col">
-        {loading && <p>Loading...</p>}
-        {error && <p>{error}</p>}
-        {data && (
-          <div className="flex flex-row justify-between items-center pt-10 sm:pt-20">
-            <h1 className="text-3xl sm:text-5xl">
-              {data[0]?.word || 'Word not found'}
-            </h1>
-            <img
-              className="w-18 sm:w-24 cursor-pointer"
-              src={playSound}
-              alt="Play sound"
-            />
-          </div>
-        )}
-      </div>
     </div>
   )
 }
