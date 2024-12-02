@@ -9,7 +9,7 @@ const Search = ({ input, data, setInput, handleSearch, loading, error }) => {
 
   return (
     <div className="w-full">
-      <form onSubmit={onFormSubmit} className="relative">
+      <form onSubmit={onFormSubmit} className="relative mt-10">
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
